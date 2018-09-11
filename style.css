@@ -245,7 +245,7 @@
   /*--bestseller image*/
 #im{
   height:20vh;
-  width: 50%.5
+  width: 50%;
 }
 .col-sm-3{
   width:25%;
@@ -305,6 +305,63 @@ h2,h4{
 /*--index3--slide*/
 .sl{
   height: 8rem;
+}
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .splash-screen .cta{
+    height: 25vh;
+    width: 35vh;
+    text-align: center;
+  } 
+    /*--bestseller image*/
+#im{
+  height:25vh;
+  width: 25%;
+}
+.card-text{
+  font-size: 60%;
+  line-height: 2rem;
+  left: 0rem;
+  ml:1rem;
+}
+h2,h4{
+  font-size:100%;
+}
+/*--abot..popular..article*/
+.KK1{
+  height: 16vh;
+}
+.KK2{
+  height: 12vh;
+}
+.KK3{
+  height: 12vh;
+  width: 10vh;
+}
+/*-- card-text--abot..popular..article*/
+.PP{
+  font-size: inherit;
+}
+.sidenav{
+  height: 40%;
+  width: 40%;
+  display: none;
+}
+/*--newrelease--*/
+.KK{
+  width: 40%;
+  height: 10%;
+}
+.LL{
+  height: 0%;
+}
+/*--card newrelease*/
+.BB{
+  height: 12rem;
+  padding: .5rem;
+}
+.card-body{
+  padding: .5rem;
 }
 }
 
