@@ -152,11 +152,9 @@
   color:red;
 } */
   /*--bestsellers--*/
-.DD{
-    position: relative;
-    display: flex;
-    border-radius: .25rem;
-    height: 40vh;
+#im{
+  width: 60%;
+  height: 40vh;
 }
 /*--newrelease--*/
 .KK{
@@ -165,21 +163,28 @@
 .LL{
   height: 30rem;
 }
+.BB{
+  height: 15rem;
+  border: dotted grey .25rem;
+}
 /*advertisement*/
 .sidenav {
-    height: 85vh;
-    top:-19rem;
+    top:-18rem;
 }
 /*--author--*/ 
 .KK1{
-    height:20vh;
+    height:15vh;
 }
-/*.BB{
-    height: 12rem;
+.KK3{
+    height:15vh;
+    width: 15vh;
+}
+.card-body{
+  padding: 1rem;
 }
 /*--latest-article--*/ 
 .KK2{
-    height:16vh;
+    height:20vh;
 }
 /*--parralax--*/
 #parallax{
@@ -218,33 +223,89 @@
 .CH{
   word-wrap: normal;
 }
-@media screen and (max-width: 640px) and (orientation:landscape){
-  .sidenav{
-    height:30vh;
-  }
-  #parallax{
-    display: none;
-  }
-  .LL1{
-    height: 15rem;
-    position: relative;
-  }
-img{
-  width: 40%;
+/*--index3--slide*/
+#sl{
+  background-image:repeating-linear-gradient( rgb(106, 191, 206)10%,rgb(177, 145, 141) 15%,rgb(194, 240, 240) 20%);
+  height: 15rem;
+  background-size: cover;
+  margin-bottom: 1rem;
+  border-bottom-color: rgb(3, 14, 26);
+  border-bottom:inset;
+}
+/*shadow index3 effect*/
+.B{
+  box-shadow: 0 3rem 3rem  rgb(248, 46, 11);
+  height: 15rem;
+}
+/*shadow effect*/
+.A{
+  box-shadow: 0 .5rem .5rem  rgb(8, 150, 175);
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  /*--bestseller image*/
+#im{
+  height:20vh;
+  width: 50%.5
+}
+.col-sm-3{
+  width:25%;
+  height: 30%;
+}
+.card-text{
+  font-size: 60%;
+  line-height: 1rem;
+  left: 0rem;
+}
+h2,h4{
+  font-size:100%;
+}
+/*--newrelease--*/
+.KK{
+  width: 80%;
+  height: 50%;
+}
+.LL{
+  height: 0%;
+}
+/*--card newrelease*/
+.BB{
+  height: 10rem;
+  padding: 0rem;
+}
+.card-body{
+  padding: .5rem;
+}
+/*--advertisement*/
+.sidenav{
+  top: -11.5rem;
+  height: 50%;
+  width: 25%;
+  float: right;
+}
+/*--abot..popular..article*/
+.KK1{
+  height: 20vh;
+}
+.KK2{
+  height: 15vh;
+}
+.KK3{
+  height: 20vh;
+  width: 15vh;
+}
+/*-- card-text--abot..popular..article*/
+.PP{
+  font-size: inherit;
+}
+/*--header*/
+.splash-screen .cta{
+  height: 30vh;
+  width: 50vh;
+}
+/*--index3--slide*/
+.sl{
+  height: 8rem;
+}
 }
 
-/*.nav--has-border:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    left: 0;
-    bottom: 0px;
-    height: 1px;
-    background: #D5DCE5;
-}*/
-  
- 
-
-  
-  
   
