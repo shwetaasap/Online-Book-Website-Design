@@ -18,6 +18,14 @@
     width: 60vh;
     text-align: center;
 }
+.clo-sm{
+  float: right;
+}
+#mytime1{
+  background-color: #ff0000;
+  width: 5.5rem;
+  border-radius: 15%;
+}
 .cta {
 	-webkit-animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 	        animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
@@ -244,7 +252,7 @@
 @media screen and (min-width: 481px) and (max-width: 767px) {
   /*--bestseller image*/
 #im{
-  height:20vh;
+  height:40vh;
   width: 50%;
 }
 .col-sm-3{
@@ -306,14 +314,19 @@ h2,h4{
 .sl{
   height: 8rem;
 }
+.NN{
+  top: fixed;
+  width: 100%;
+  padding: 0rem;
+}
 }
 @media (min-width: 320px) and (max-width: 480px) {
-  .splash-screen .cta{
-    height: 25vh;
-    width: 35vh;
-    text-align: center;
-  } 
-    /*--bestseller image*/
+.splash-screen .cta{
+  height: 25vh;
+  width: 35vh;
+  text-align: center;
+} 
+  /*--bestseller image*/
 #im{
   height:25vh;
   width: 40%;
@@ -322,7 +335,7 @@ h2,h4{
   font-size: 60%;
   line-height: 2rem;
   left: 0rem;
-  ml:1rem;
+  margin-left:1rem;
 }
 h2,h4{
   font-size:100%;
@@ -362,6 +375,14 @@ h2,h4{
 }
 .card-body{
   padding: .5rem;
+}
+.BK{
+  max-width: 480rem;
+}
+#parallax{
+  height: 10%;
+  align-items: center;
+  width: 100%; 
 }
 }
 
